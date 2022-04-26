@@ -1,14 +1,17 @@
-:root {
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"):
+  root {
   --primary: #e99401;
   --negro: #262626;
-  --blanco: #FFF;
-  --fuente-principal: 'Outfit', sans-serif;
+  --blanco: #fff;
+  --fuente-principal: "Outfit", sans-serif;
 }
 html {
   font-size: 62.5%;
   box-sizing: border-box;
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 body {
